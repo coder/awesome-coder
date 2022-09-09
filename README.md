@@ -65,7 +65,7 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 - [ntimo/coder-hetzner-cloud-template](https://github.com/ntimo/coder-hetzner-cloud-template) - Setup a Hetzner Cloud instance as dev environment with or without vscode.
 - [matifali/coder-templates](https://github.com/matifali/coder-templates) - Deeplearning with Jupyter Notebook/Lab and Matlab in browser. 
 - [m.lan/coder-templates](https://gitlab.com/m.lan/coder-templates) - Kubernetes template with DinD.
-
+- [bpmct/coder-templates/proxmox-vm](https://github.com/bpmct/coder-templates/tree/main/proxmox-vm) - Develop in a Proxmox VM.
 
 ## Talks and Videos
 
