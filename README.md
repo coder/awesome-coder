@@ -67,6 +67,9 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 - [m.lan/coder-templates](https://gitlab.com/m.lan/coder-templates) - Kubernetes template with DinD.
 - [bpmct/coder-templates/proxmox-vm](https://github.com/bpmct/coder-templates/tree/main/proxmox-vm) - Develop in a Proxmox VM.
 - [bpmct/coder-templates/shared-mac](https://github.com/bpmct/coder-templates/tree/main/shared-mac) - Connect a pre-provisioned Mac device and provision system users as workspaces
+- [denbeigh2000/coder-templates/aws-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-nixos) - Manage a NixOS development workspace on EC2.
+- [denbeigh2000/coder-templates/aws-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-nixos) - Manage a NixOS development workspace on EC2.
+
 
 ## Talks and Videos
 
