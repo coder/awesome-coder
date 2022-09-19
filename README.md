@@ -68,7 +68,8 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 - [bpmct/coder-templates/proxmox-vm](https://github.com/bpmct/coder-templates/tree/main/proxmox-vm) - Develop in a Proxmox VM.
 - [bpmct/coder-templates/shared-mac](https://github.com/bpmct/coder-templates/tree/main/shared-mac) - Connect a pre-provisioned Mac device and provision system users as workspaces
 - [denbeigh2000/coder-templates/aws-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-nixos) - Manage a NixOS development workspace on EC2.
-- [denbeigh2000/coder-templates/aws-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-nixos) - Manage a NixOS development workspace on EC2.
+- [denbeigh2000/coder-templates/aws-spot-nixos-graviton](https://github.com/denbeigh2000/coder-templates/tree/master/aws-spot-nixos-graviton) - Manage a NixOS development workspace on EC2 with Graviton Spot Instances.
+- [denbeigh2000/coder-templates/aws-spot-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-spot-nixos) - Manage a NixOS development workspace on EC2 with Spot Instances.
 
 
 ## Talks and Videos
