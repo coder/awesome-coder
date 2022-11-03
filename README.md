@@ -14,6 +14,7 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 * [Official Resources](#official-resources)
 * [Books](#books)
 * [Tutorials and Blog Posts](#tutorials-and-blog-posts)
+* [IDEs](#ides)
 * [Templates](#templates)
 * [Talks and Videos](#talks-and-videos)
 * [Companies using Coder](#companies-using-coder)
