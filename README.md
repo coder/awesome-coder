@@ -4,7 +4,7 @@
 [<img src="https://github.com/coder/presskit/raw/main/logos/coder%20logo%20white%20square.png?raw=true" align="right" width="100">](https://coder.com)
 Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTING.md) are welcome!
 
-**Remote development on _your infrastructure_**. Offload your team's development from local workstations to cloud servers. Onboard developers in minutes. Build, test and compile at the speed of the cloud. Keep your source code and data behind your firewall.
+**Software development on _your infrastructure_**. Offload your team's development from local workstations to cloud servers. Onboard developers in minutes. Build, test and compile at the speed of the cloud. Keep your source code and data behind your firewall.
 
 > "By leveraging Terraform, Coder lets developers run an IDE on any compute platform including on-prem, AWS, Azure, GCP, DigitalOcean, Kubernetes, Docker, and more, with workspaces running on Linux, Windows, or Mac." - **[Kevin Fishner](https://www.linkedin.com/in/kevinfishner) Chief of Staff at [HashiCorp](https://hashicorp.com/)**
 
@@ -56,6 +56,10 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 Coder maintains an official list of comparisons in the [coder/coder README.md](https://github.com/coder/coder#comparison). Please [file an issue](https://github.com/coder/coder/issues/new) if any of the information in that section is out of date. See also: [what Coder is not](https://coder.com/docs/coder-oss/latest/index#what-coder-is-not?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)
 
 ### Miscellaneous
+
+## IDEs
+
+- [Running a private VS Code Extension Marketplace](https://coder.com/blog/running-a-private-vs-code-extension-marketplace)
 
 ## Templates
 
