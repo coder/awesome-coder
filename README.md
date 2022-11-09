@@ -76,6 +76,7 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 - [denbeigh2000/coder-templates/aws-spot-nixos-graviton](https://github.com/denbeigh2000/coder-templates/tree/master/aws-spot-nixos-graviton) - Manage a NixOS development workspace on EC2 with Graviton Spot Instances.
 - [denbeigh2000/coder-templates/aws-spot-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-spot-nixos) - Manage a NixOS development workspace on EC2 with Spot Instances.
 - [8Bitz0/coder-rust-template](https://gitlab.com/8Bitz0/coder-rust-template) - Coder templates with various Linux distros for out-of-the-box Rust development.
+- [uwu/basic-env](https://github.com/uwu/basic-env) - Docker-based NodeJS development environment with code-server, NoVNC and dotfiles support out of the box
 
 ## Talks and Videos
 
