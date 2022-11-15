@@ -32,6 +32,8 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 
 ## Tutorials and Blog Posts
 
+- [Coder OSS on GKE with Terraform in <20 minutes](https://github.com/ElliotG/coder-oss-gke-tf)
+
 ### Beginner Guides
 
 - [Coder 101: How Coder Works At A Higher Level](https://coder.com/blog/coder-101-how-coder-works-at-a-higher-level?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)
