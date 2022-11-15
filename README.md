@@ -32,6 +32,7 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 
 ## Tutorials and Blog Posts
 
+- [Laptop development is dead: why remote development is the future](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13)
 - [Coder OSS on GKE with Terraform in <20 minutes](https://github.com/ElliotG/coder-oss-gke-tf)
 
 ### Beginner Guides
