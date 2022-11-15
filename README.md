@@ -27,6 +27,7 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 - [Presentations](https://github.com/coder/presentations)
 - [Discord](https://coder.com/chat?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)
 - [Twitter](https://twitter.com/CoderHQ)
+- [Mastodon](https://fosstodon.org/web/@coderhq)
 
 <!-- ## Books -->
 
