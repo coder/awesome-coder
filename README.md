@@ -21,6 +21,7 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 
 ## Official Resources
 
+- Case Studies ([Palantir](https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53), [Forrester](https://coder.com/forrester?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)) 
 - [Documentation](https://coder.com/docs/coder-oss/latest?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)
 - [Blog](https://coder.com/blog?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)
 - [Press kit & Brand styleguide](https://github.com/coder/presskit)
@@ -33,6 +34,7 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 
 ## Tutorials and Blog Posts
 
+- [The Benefits of Remote Ephemeral Workspaces](https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53)
 - [Laptop development is dead: why remote development is the future](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13)
 - [Coder OSS on GKE with Terraform in <20 minutes](https://github.com/ElliotG/coder-oss-gke-tf)
 
