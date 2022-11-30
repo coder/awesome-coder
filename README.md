@@ -73,6 +73,7 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 - [Official templates](https://github.com/coder/coder/tree/main/examples/templates)
 - [Community templates](https://github.com/coder/coder/blob/main/examples/templates/community-templates.md)
 
+- [harkymark/v2-templates](https://github.com/sharkymark/v2-templates) - A large collection of templates.
 - [ntimo/coder-hetzner-cloud-template](https://github.com/ntimo/coder-hetzner-cloud-template) - Setup a Hetzner Cloud instance as dev environment with or without vscode.
 - [matifali/coder-templates](https://github.com/matifali/coder-templates) - Deeplearning with Jupyter Notebook/Lab and Matlab in browser. 
 - [m.lan/coder-templates](https://gitlab.com/m.lan/coder-templates) - Kubernetes template with Docker in Docker (DinD)
