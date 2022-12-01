@@ -68,6 +68,10 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 
 - [Running a private VS Code Extension Marketplace](https://coder.com/blog/running-a-private-vs-code-extension-marketplace)
 
+## Automation
+
+- [Update Coder Template](https://github.com/marketplace/actions/update-coder-template) - A GitHub action to automate coder template changes.
+
 ## Templates
 
 - [Official templates](https://github.com/coder/coder/tree/main/examples/templates)
