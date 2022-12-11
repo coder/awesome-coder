@@ -72,6 +72,7 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 
 - [Update Coder Template](https://github.com/marketplace/actions/update-coder-template) - A GitHub action to automate coder template changes.
 - [Provision Coder with Lima](https://github.com/coder/coder/tree/main/examples/lima) - Linux virtual machines, typically on macOS, for running containerd.
+- [Coder on Hetzner Cloud](https://github.com/tmsmr/coder-hcloud) - One-shot deployment for Coder on Hetzner Cloud
 
 ## Templates
 
