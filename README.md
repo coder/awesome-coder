@@ -44,7 +44,7 @@ Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTI
 
 ### What is Coder?
 
-- [What Coder is not](https://coder.com/docs/coder-oss/latest/index#what-coder-is-not?utm_source=github.com/coder/awesome-coder&utm_medium=github&utm_campaign=readme.md)
+- [What Coder is not](https://coder.com/docs/v2/latest#what-coder-is-not)
 
 <!-- ### AWS  -->
 
