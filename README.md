@@ -1,7 +1,7 @@
 # Awesome Coder [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > A curated list of resources on [Coder](https://www.coder.com/).
-[<img src="https://github.com/coder/presskit/raw/main/logos/coder%20logo%20white%20square.png?raw=true" align="right" width="100">](https://coder.com)
+[<img src="https://github.com/coder/presskit/blob/7b1ae316de8b78cbdd8ef6b6352ef9f32be51504/logos/coder_logo_white_square.png?raw=true" align="right" width="100">](https://coder.com)
 Your [contributions](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTING.md) are welcome!
 
 **Software development on _your infrastructure_**. Offload your team's development from local workstations to cloud servers. Onboard developers in minutes. Build, test and compile at the speed of the cloud. Keep your source code and data behind your firewall.
@@ -96,11 +96,6 @@ Coder maintains an official list of comparisons in the [coder/coder README.md](h
 ## Talks and Videos
 
 - [Your Next Workstation Is In The Cloud](https://www.youtube.com/watch?v=C4fQvIHCVzw&t=748s)
-
-## Companies using Coder
-
-If you're using Coder in your organization, please try to add your company name to the [ADOPTERS.md](https://github.com/coder/coder/blob/main/ADOPTERS.md). It really helps the project to gain momentum and credibility. It's a small contribution back to the project with a big impact.
-
 
 ## License
 
