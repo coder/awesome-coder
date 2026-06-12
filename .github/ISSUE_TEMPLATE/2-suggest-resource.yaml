@@ -55,7 +55,7 @@ body:
     attributes:
       label: "Checks"
       options:
-        - label: "I have read the [contribution guidelines](../blob/main/CONTRIBUTING.md)."
+        - label: "I have read the [contribution guidelines](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTING.md)."
           required: true
         - label: "The resource is actively maintained."
           required: false

@@ -32,7 +32,6 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [Coder 101: How Coder Works At A Higher Level](https://coder.com/blog/coder-101-how-coder-works-at-a-higher-level) - High-level overview of how Coder works.
 - [The Benefits of Remote Ephemeral Workspaces](https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53) - Palantir on running ephemeral, remote development environments at scale.
 - [Laptop development is dead: why remote development is the future](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13) - Argument for moving developer environments off laptops.
-- [Coder OSS on GKE with Terraform in <20 minutes](https://github.com/ElliotG/coder-oss-gke-tf) - Terraform-driven Coder install on Google Kubernetes Engine.
 
 ## IDEs
 
@@ -54,9 +53,7 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [m.lan/coder-templates](https://gitlab.com/m.lan/coder-templates) - Kubernetes template with Docker in Docker (DinD).
 - [bpmct/coder-templates/proxmox-vm](https://github.com/bpmct/coder-templates/tree/main/proxmox-vm) - Develop in a Proxmox VM.
 - [bpmct/coder-templates/shared-mac](https://github.com/bpmct/coder-templates/tree/main/shared-mac) - Connect a pre-provisioned Mac device and provision system users as workspaces.
-- [denbeigh2000/coder-templates/aws-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-nixos) - Manage a NixOS development workspace on EC2.
-- [denbeigh2000/coder-templates/aws-spot-nixos-graviton](https://github.com/denbeigh2000/coder-templates/tree/master/aws-spot-nixos-graviton) - Manage a NixOS development workspace on EC2 with Graviton Spot Instances.
-- [denbeigh2000/coder-templates/aws-spot-nixos](https://github.com/denbeigh2000/coder-templates/tree/master/aws-spot-nixos) - Manage a NixOS development workspace on EC2 with Spot Instances.
+- [denbeigh2000/coder-templates](https://github.com/denbeigh2000/coder-templates) - Manage NixOS development workspaces on EC2, including spot and Graviton variants.
 - [8Bitz0/coder-rust-template](https://gitlab.com/8Bitz0/coder-rust-template) - Coder templates with various Linux distros for out-of-the-box Rust development.
 - [uwu/basic-env](https://github.com/uwu/basic-env) - Docker-based Node.js development environment with code-server, NoVNC, and dotfiles support out of the box.
 - [sulo1337/coder-kubevirt-template](https://github.com/sulo1337/coder-kubevirt-template) - KubeVirt-based development environment that provisions KVM virtual machines as Coder workspaces on top of a Kubernetes cluster.

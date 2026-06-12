@@ -20,7 +20,7 @@
 
 ## Checklist
 
-- [ ] I have read the [contribution guidelines](../blob/main/CONTRIBUTING.md).
+- [ ] I have read the [contribution guidelines](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTING.md).
 - [ ] My entry follows the `[Name](url) - One-line description.` format.
 - [ ] The resource is actively maintained or otherwise worth listing.
 - [ ] `bun fmt:ci` passes locally (or I'm relying on CI to confirm).
