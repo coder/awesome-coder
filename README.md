@@ -21,25 +21,23 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 
 - [Documentation](https://coder.com/docs) - Official Coder documentation, including install, admin, and contributor guides.
 - [Blog](https://coder.com/blog) - Posts from the Coder team covering product updates, deployments, and technical deep dives.
-- [Press kit & Brand styleguide](https://github.com/coder/presskit) - Logos, brand assets, and brand guidelines.
-- [Presentations](https://github.com/coder/presentations) - Talks and presentations released under CC0 for remix and reuse.
+- [Press kit & brand style guide](https://coder.com/brand) - Logos, brand assets, and brand guidelines.
 - [Discord](https://cdr.co/discord-Y6fMxGdNRg) - Community chat for developers and operators using Coder.
 - [X](https://x.com/CoderHQ) - Official Coder account on X.
-- [Mastodon](https://fosstodon.org/web/@coderhq) - Official Coder account on Mastodon.
 
 ## Tutorials and Blog Posts
 
-- [Coder 101: How Coder Works At A Higher Level](https://coder.com/blog/coder-101-how-coder-works-at-a-higher-level) - High-level overview of how Coder works.
 - [The Benefits of Remote Ephemeral Workspaces](https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53) - Palantir on running ephemeral, remote development environments at scale.
 - [Laptop development is dead: why remote development is the future](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13) - Argument for moving developer environments off laptops.
 
 ## IDEs
 
+- [Workspace access](https://coder.com/docs/user-guides/workspace-access) - Connect to Coder workspaces from VS Code, JetBrains, Cursor, code-server, and the CLI.
 - [Running a private VS Code Extension Marketplace](https://coder.com/blog/running-a-private-vs-code-extension-marketplace) - Host an internal extension marketplace for code-server and VS Code workspaces.
 
 ## Automation
 
-- [Provision Coder with Terraform](https://github.com/ElliotG/coder-oss-tf) - Coder OSS on GKE with Terraform in under 20 minutes.
+- [Validated architectures](https://coder.com/docs/admin/infrastructure/validated-architectures) - Reference architectures for deploying Coder in production on Kubernetes and other platforms.
 - [Update Coder Template](https://github.com/marketplace/actions/update-coder-template) - A GitHub Action to automate Coder template changes.
 - [Provision Coder with Lima](https://github.com/coder/coder/tree/main/examples/lima) - Linux virtual machines, typically on macOS, for running containerd.
 
@@ -59,7 +57,9 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 
 ## Talks and Videos
 
-- [Your Next Workstation Is In The Cloud](https://www.youtube.com/watch?v=C4fQvIHCVzw&t=748s) - Talk on moving developer workstations to the cloud with Coder.
+- [Introduction to Coder Workspaces](https://www.youtube.com/watch?v=KNnNREoizOM) - Overview of Coder workspaces and how they fit into a developer workflow.
+- [Building the IDE Golden Path](https://www.youtube.com/watch?v=F6D-cXl_xUA) - Ben Potter on building a consistent IDE experience across teams with Coder.
+- [Your Next Workstation Is In The Cloud](https://www.youtube.com/watch?v=C4fQvIHCVzw&t=748s) - Ketan Gangatirkar on moving developer workstations to the cloud with Coder.
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
