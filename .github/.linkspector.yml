@@ -1,0 +1,21 @@
+# Linkspector config for awesome-coder.
+# Mirrors the structure of coder/coder/.github/.linkspector.yml so the
+# behavior stays consistent across the two repositories.
+dirs:
+  - .
+excludedDirs:
+  # Build output and dependencies have no value to lint.
+  - node_modules
+  - .git
+ignorePatterns:
+  - pattern: "localhost"
+  - pattern: "127.0.0.1"
+  - pattern: "0.0.0.0"
+  - pattern: "example.com"
+  - pattern: "mailto:"
+  # Hosts known to block GitHub runner IPs even from a headless browser.
+  # Add new patterns here when a real URL is verified working in a normal
+  # browser but the runner consistently fails to reach it.
+  - pattern: "linkedin.com"
+aliveStatusCodes:
+  - 200
