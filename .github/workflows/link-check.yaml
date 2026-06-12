@@ -1,0 +1,109 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/.linkspector.yml"
+      - ".github/workflows/link-check.yaml"
+  schedule:
+    # Mondays at 14:00 UTC.
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  check-links:
+    # Later versions of Ubuntu have disabled unprivileged user namespaces,
+    # which the linkspector action requires.
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: read
+      pull-requests: write
+    env:
+      CHROME_BUILD_ID: "145.0.7632.77"
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
+        with:
+          node-version: "22"
+
+      - name: Cache Puppeteer Chrome
+        id: chrome-cache
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-${{ runner.os }}-${{ runner.arch }}-chrome-${{ env.CHROME_BUILD_ID }}
+
+      - name: Install Linkspector Chrome
+        id: install-chrome
+        run: |
+          set -euo pipefail
+          # @puppeteer/browsers is idempotent: when the cache hit restored the
+          # binary it just prints the existing path; on a cache miss it
+          # downloads Chrome into ~/.cache/puppeteer for actions/cache to save
+          # at the end of the job.
+          chrome_path="$(npx -y @puppeteer/browsers install "chrome@${CHROME_BUILD_ID}" --path "${HOME}/.cache/puppeteer" --format '{{path}}')"
+          echo "path=${chrome_path}" >> "$GITHUB_OUTPUT"
+
+      # action-linkspector has a pnpm install step that fails without an
+      # existing pnpm store. See:
+      # https://github.com/UmbrellaDocs/action-linkspector/issues/54
+      - name: Enable corepack and create pnpm store
+        run: |
+          corepack enable pnpm
+          mkdir -p "$(pnpm store path --silent)"
+
+      # action-linkspector pipes linkspector through reviewdog, which only
+      # surfaces failures and stays silent on success. List discovered URLs
+      # and run linkspector standalone first so the workflow log shows every
+      # URL that was checked, then let action-linkspector run for the PR
+      # review comment integration.
+      - name: List URLs found in Markdown files
+        run: |
+          set -euo pipefail
+          echo "URLs discovered in Markdown files (subject to linkspector ignorePatterns):"
+          echo
+          grep -rhoE 'https?://[^[:space:])"`<>]+' \
+            --include='*.md' \
+            --exclude-dir=node_modules \
+            --exclude-dir=.git \
+            . | sort -u
+
+      - name: Run linkspector
+        env:
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.install-chrome.outputs.path }}
+        run: npx -y @umbrelladocs/linkspector check --showstat --check-archived -c .github/.linkspector.yml
+
+      - name: Check Markdown links
+        if: always()
+        uses: umbrelladocs/action-linkspector@036f295d12b67b0c4b445bc83db0538afb78db69 # v1.5.2
+        env:
+          # Use the Chrome build prepared from the pinned Puppeteer instead
+          # of letting linkspector download a mutable browser at runtime.
+          # See: https://github.com/UmbrellaDocs/action-linkspector/issues/62
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.install-chrome.outputs.path }}
+        with:
+          reporter: ${{ github.event_name == 'pull_request' && 'github-pr-review' || 'github-check' }}
+          config_file: .github/.linkspector.yml
+          fail_on_error: "true"
+          filter_mode: "file"
+          show_stats: "true"

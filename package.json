@@ -1,0 +1,13 @@
+{
+  "name": "awesome-coder",
+  "private": true,
+  "scripts": {
+    "fmt": "bun x prettier --write .",
+    "fmt:ci": "bun x prettier --check .",
+    "lint": "bun x awesome-lint"
+  },
+  "devDependencies": {
+    "awesome-lint": "^0.18.1",
+    "prettier": "^3.7.4"
+  }
+}

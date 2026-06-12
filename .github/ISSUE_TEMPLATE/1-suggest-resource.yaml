@@ -1,0 +1,61 @@
+name: "Suggest a resource"
+description: "Suggest a resource to add to the list."
+title: "suggestion: "
+labels: ["suggestion"]
+body:
+  - type: checkboxes
+    id: existing_issues
+    attributes:
+      label: "Is there an existing issue for this?"
+      description: "Please search to see if the resource has already been suggested or listed."
+      options:
+        - label: "I have searched the existing issues and the README"
+          required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: "Name"
+      description: "Name of the resource."
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: "URL"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: "Suggested section"
+      options:
+        - Official Resources
+        - Tutorials and Blog Posts
+        - IDEs
+        - Automation
+        - Templates
+        - Talks and Videos
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "One-line description"
+      description: "Format as it would appear in the README, e.g. `[Name](url) - One-line description.`"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checks"
+      options:
+        - label: "I have read the [contribution guidelines](https://github.com/coder/awesome-coder/blob/main/CONTRIBUTING.md)."
+          required: true
+        - label: "The resource is actively maintained."
+          required: false

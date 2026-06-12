@@ -1,0 +1,22 @@
+[default.extend-words]
+# Coder community handles / usernames that look like typos.
+denbeigh = "denbeigh"
+matifali = "matifali"
+sharkymark = "sharkymark"
+ntimo = "ntimo"
+bpmct = "bpmct"
+tmsmr = "tmsmr"
+sulo = "sulo"
+elliotgraebert = "elliotgraebert"
+
+# Domain-specific terms.
+Kubevirt = "KubeVirt"
+NixOS = "NixOS"
+HashiCorp = "HashiCorp"
+
+[files]
+extend-exclude = [
+    "LICENSE",
+    "bun.lock",
+    "node_modules",
+]

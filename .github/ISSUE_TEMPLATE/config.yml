@@ -1,0 +1,13 @@
+contact_links:
+  - name: Coder Documentation
+    url: https://coder.com/docs
+    about: Official Coder documentation.
+  - name: Coder Registry
+    url: https://registry.coder.com
+    about: Official and community templates and modules.
+  - name: Coder Discord
+    url: https://cdr.co/discord-Y6fMxGdNRg
+    about: Get in touch with the Coder developers and community for support.
+  - name: Questions or discussion
+    url: https://github.com/coder/coder/discussions/new/choose
+    about: For general questions or discussion, use the coder/coder discussions board.
