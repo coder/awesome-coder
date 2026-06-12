@@ -117,11 +117,11 @@ jobs:
           set -euo pipefail
           echo "URLs discovered in Markdown files (subject to linkspector ignorePatterns):"
           echo
-          grep -hoE '(https?|ftp)://[^)\" >\`'\'''<]+' \
-            --include='*.md' -r . \
+          grep -rhoE 'https?://[^[:space:])"`<>]+' \
+            --include='*.md' \
             --exclude-dir=node_modules \
             --exclude-dir=.git \
-            | sort -u
+            . | sort -u
 
       - name: Run linkspector (verbose log)
         env:
