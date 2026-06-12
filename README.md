@@ -19,13 +19,13 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 
 ## Official Resources
 
-- [Documentation](https://coder.com/docs)
-- [Blog](https://coder.com/blog)
-- [Press kit & Brand styleguide](https://github.com/coder/presskit)
-- [Presentations](https://github.com/coder/presentations)
-- [Discord](https://cdr.co/discord-Y6fMxGdNRg)
-- [X](https://x.com/CoderHQ)
-- [Mastodon](https://fosstodon.org/web/@coderhq)
+- [Documentation](https://coder.com/docs) - Official Coder documentation, including install, admin, and contributor guides.
+- [Blog](https://coder.com/blog) - Posts from the Coder team covering product updates, deployments, and technical deep dives.
+- [Press kit & Brand styleguide](https://github.com/coder/presskit) - Logos, brand assets, and brand guidelines.
+- [Presentations](https://github.com/coder/presentations) - Talks and presentations released under CC0 for remix and reuse.
+- [Discord](https://cdr.co/discord-Y6fMxGdNRg) - Community chat for developers and operators using Coder.
+- [X](https://x.com/CoderHQ) - Official Coder account on X.
+- [Mastodon](https://fosstodon.org/web/@coderhq) - Official Coder account on Mastodon.
 
 ## Tutorials and Blog Posts
 
