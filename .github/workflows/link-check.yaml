@@ -102,7 +102,34 @@ jobs:
           path: ~/.cache/puppeteer
           key: ${{ needs.prepare-linkspector-browser.outputs.browser-cache-key }}
 
+      - name: Set up Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
+        with:
+          node-version: "20"
+
+      # action-linkspector pipes linkspector through reviewdog, which only
+      # surfaces failures and stays silent on success. Run linkspector
+      # standalone first so the workflow log shows every URL that was
+      # checked, then let action-linkspector run for the PR review comment
+      # integration.
+      - name: List URLs found in Markdown files
+        run: |
+          set -euo pipefail
+          echo "URLs discovered in Markdown files (subject to linkspector ignorePatterns):"
+          echo
+          grep -hoE '(https?|ftp)://[^)\" >\`'\'''<]+' \
+            --include='*.md' -r . \
+            --exclude-dir=node_modules \
+            --exclude-dir=.git \
+            | sort -u
+
+      - name: Run linkspector (verbose log)
+        env:
+          PUPPETEER_EXECUTABLE_PATH: ${{ needs.prepare-linkspector-browser.outputs.chrome-path }}
+        run: npx -y @umbrelladocs/linkspector check --showstat --check-archived -c .github/.linkspector.yml
+
       - name: Check Markdown links
+        if: always()
         uses: umbrelladocs/action-linkspector@036f295d12b67b0c4b445bc83db0538afb78db69 # v1.5.2
         env:
           # Use the Chrome build prepared from the pinned Puppeteer instead
@@ -114,3 +141,4 @@ jobs:
           config_file: .github/.linkspector.yml
           fail_on_error: "true"
           filter_mode: "file"
+          show_stats: "true"
