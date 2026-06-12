@@ -1,4 +1,4 @@
-name: "🔗 Broken link"
+name: "Broken link"
 description: "Report a broken or out-of-date link in the README."
 title: "broken link: "
 labels: ["broken-links"]

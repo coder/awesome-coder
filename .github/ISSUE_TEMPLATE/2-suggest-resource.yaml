@@ -1,4 +1,4 @@
-name: "✨ Suggest a resource"
+name: "Suggest a resource"
 description: "Suggest a resource to add to the list."
 title: "suggestion: "
 labels: ["suggestion"]
