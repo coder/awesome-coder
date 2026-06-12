@@ -42,7 +42,6 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [Provision Coder with Terraform](https://github.com/ElliotG/coder-oss-tf) - Coder OSS on GKE with Terraform in under 20 minutes.
 - [Update Coder Template](https://github.com/marketplace/actions/update-coder-template) - A GitHub Action to automate Coder template changes.
 - [Provision Coder with Lima](https://github.com/coder/coder/tree/main/examples/lima) - Linux virtual machines, typically on macOS, for running containerd.
-- [Coder on Hetzner Cloud](https://github.com/tmsmr/coder-hcloud) - One-shot deployment for Coder on Hetzner Cloud.
 
 ## Templates
 
