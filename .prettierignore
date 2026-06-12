@@ -1,0 +1,9 @@
+# Node and Bun dependencies
+node_modules/
+bun.lock
+
+# Git and CI metadata
+LICENSE
+
+# Lockfiles and generated content
+*.lock
