@@ -91,7 +91,6 @@ jobs:
             --max-concurrency 4
             --retry-wait-time 5
             --accept 200,206,403,429
-            --exclude-mail
             './**/*.md'
           fail: ${{ github.event_name == 'push' || github.event_name == 'pull_request' }}
         env:
