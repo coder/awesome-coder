@@ -4,16 +4,20 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "ci"
     groups:
       github-actions:
         patterns:
           - "*"
 
-  - package-ecosystem: "npm"
+  - package-ecosystem: "bun"
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "chore(deps)"
     groups:
-      npm:
+      bun:
         patterns:
           - "*"
