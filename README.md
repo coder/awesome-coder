@@ -61,7 +61,7 @@ Start with the [Coder Registry](https://registry.coder.com/templates) for offici
 
 ## Modules
 
-Start with the [Coder Registry](https://registry.coder.com/modules) for reusable building blocks for templates: IDE installers, dotfiles support, code-server, JetBrains, and more.
+Start with the [Coder Registry](https://registry.coder.com/modules) for modules that extend your templates with tools and integrations: IDE installers, dotfiles support, code-server, JetBrains, and more.
 
 ## Terraform Providers
 
