@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "timezone": "America/Chicago",
+  "schedule": ["before 06:00 on monday"],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": "github-actions",
+      "commitMessagePrefix": "ci:"
+    },
+    {
+      "matchManagers": ["bun"],
+      "groupName": "bun dependencies",
+      "commitMessagePrefix": "chore(deps):"
+    }
+  ]
+}
