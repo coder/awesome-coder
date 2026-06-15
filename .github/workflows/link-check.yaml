@@ -32,7 +32,7 @@ jobs:
       CHROME_BUILD_ID: "145.0.7632.77"
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           egress-policy: audit
 
@@ -95,7 +95,7 @@ jobs:
 
       - name: Check Markdown links
         if: always()
-        uses: umbrelladocs/action-linkspector@036f295d12b67b0c4b445bc83db0538afb78db69 # v1.5.2
+        uses: umbrelladocs/action-linkspector@6c637d70424624231467a4ca918be54fa3b792d0 # v1.5.4
         env:
           # Use the Chrome build prepared from the pinned Puppeteer instead
           # of letting linkspector download a mutable browser at runtime.
