@@ -29,6 +29,9 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [Press kit & brand style guide](https://coder.com/brand) - Logos, brand assets, and brand guidelines.
 - [Discord](https://cdr.co/discord-Y6fMxGdNRg) - Community chat for developers and operators using Coder.
 - [X](https://x.com/CoderHQ) - Official Coder account on X.
+- [Mastodon](https://fosstodon.org/@coderhq) - Official Coder account on Mastodon (Fosstodon).
+- [YouTube](https://www.youtube.com/@coderhq) - Coder's YouTube channel with product demos, talks, and tutorials.
+- [\[Dev\]olution Podcast](https://podcasts.apple.com/podcast/dev-olution/id1839475248) - Coder's podcast, hosted by Field CTO Nicky Pike, on building real-world systems and the impact of AI on development.
 
 ## Platform and Tools
 
