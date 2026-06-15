@@ -12,12 +12,12 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 
 - [Official Resources](#official-resources)
 - [Platform and Tools](#platform-and-tools)
-- [IDE Integrations](#ide-integrations)
-- [Coder Desktop](#coder-desktop)
 - [AI Coding Agents](#ai-coding-agents)
 - [Templates](#templates)
 - [Modules](#modules)
 - [Terraform Providers](#terraform-providers)
+- [IDE Integrations](#ide-integrations)
+- [Coder Desktop](#coder-desktop)
 - [Automation](#automation)
 - [Tutorials and Blog Posts](#tutorials-and-blog-posts)
 - [Talks and Videos](#talks-and-videos)
@@ -39,34 +39,15 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [coder/envbox](https://github.com/coder/envbox) - Container image for running system-level software like Docker and systemd inside Kubernetes workspaces.
 - [coder/preview](https://github.com/coder/preview) - Template preview engine used by the Registry and template authors.
 
-## IDE Integrations
-
-- [Workspace access](https://coder.com/docs/user-guides/workspace-access) - Connect to Coder workspaces from VS Code, JetBrains, Cursor, code-server, and the CLI.
-- [coder/vscode-coder](https://github.com/coder/vscode-coder) - VS Code extension to open any Coder workspace with a single click.
-- [coder/jetbrains-coder](https://github.com/coder/jetbrains-coder) - JetBrains Gateway plugin for Coder.
-- [coder/coder-jetbrains-toolbox](https://github.com/coder/coder-jetbrains-toolbox) - JetBrains Toolbox plugin for Coder.
-- [Running a private VS Code Extension Marketplace](https://coder.com/blog/running-a-private-vs-code-extension-marketplace) - Host an internal extension marketplace for code-server and VS Code workspaces.
-
-## Coder Desktop
-
-- [coder/coder-desktop-macos](https://github.com/coder/coder-desktop-macos) - Native macOS Coder Desktop client.
-- [coder/coder-desktop-windows](https://github.com/coder/coder-desktop-windows) - Native Windows Coder Desktop client.
-
 ## AI Coding Agents
 
 - [AI Coder documentation](https://coder.com/docs/ai-coder) - Official documentation for running AI coding agents inside Coder workspaces.
+- [Coder Agents](https://coder.com/docs/ai-coder/agents) - Coder's built-in chat interface and API for delegating development work to coding agents. It selects a template, provisions a workspace, and runs the agent loop inside your Coder control plane.
 - [Tasks](https://coder.com/docs/ai-coder/tasks) - Run AI agent loops in the Coder control plane against your workspaces.
-- [coder/agentapi](https://github.com/coder/agentapi) - HTTP API in front of Claude Code, Goose, Aider, Gemini, Amp, and Codex.
 
 ## Templates
 
-### On the Registry
-
-- [Coder Registry templates](https://registry.coder.com/templates) - Official and community templates published to the Coder Registry.
-
-### Not on the Registry
-
-The repositories below are curated community templates that have not (yet) been published to the Registry.
+Start with the [Coder Registry](https://registry.coder.com/templates) for official and community templates. The repositories below are maintained elsewhere in the community:
 
 - [8Bitz0/coder-rust-template](https://gitlab.com/8Bitz0/coder-rust-template) - Coder templates with various Linux distros for out-of-the-box Rust development.
 - [bpmct/coder-templates/proxmox-vm](https://github.com/bpmct/coder-templates/tree/main/proxmox-vm) - Develop in a Proxmox VM.
@@ -81,21 +62,40 @@ The repositories below are curated community templates that have not (yet) been 
 
 ## Modules
 
-- [Coder Registry modules](https://registry.coder.com/modules) - Reusable building blocks for templates: IDE installers, dotfiles support, code-server, JetBrains, and more.
+Start with the [Coder Registry](https://registry.coder.com/modules) for reusable building blocks for templates: IDE installers, dotfiles support, code-server, JetBrains, and more.
 
 ## Terraform Providers
 
 - [coder/terraform-provider-coder](https://github.com/coder/terraform-provider-coder) - Template-side Terraform resources: `coder_agent`, `coder_app`, `coder_parameter`, and friends.
 - [coder/terraform-provider-coderd](https://github.com/coder/terraform-provider-coderd) - Manage a Coder deployment itself (templates, groups, organizations) with Terraform.
 
+## IDE Integrations
+
+- [Workspace access](https://coder.com/docs/user-guides/workspace-access) - Connect to Coder workspaces from VS Code, JetBrains, Cursor, code-server, and the CLI.
+- [coder/vscode-coder](https://github.com/coder/vscode-coder) - VS Code extension to open any Coder workspace with a single click.
+- [coder/jetbrains-coder](https://github.com/coder/jetbrains-coder) - JetBrains Gateway plugin for Coder.
+- [coder/coder-jetbrains-toolbox](https://github.com/coder/coder-jetbrains-toolbox) - JetBrains Toolbox plugin for Coder.
+- [Running a private VS Code Extension Marketplace](https://coder.com/blog/running-a-private-vs-code-extension-marketplace) - Host an internal extension marketplace for code-server and VS Code workspaces.
+
+## Coder Desktop
+
+- [coder/coder-desktop-macos](https://github.com/coder/coder-desktop-macos) - Native macOS Coder Desktop client.
+- [coder/coder-desktop-windows](https://github.com/coder/coder-desktop-windows) - Native Windows Coder Desktop client.
+
 ## Automation
 
 - [Validated architectures](https://coder.com/docs/admin/infrastructure/validated-architectures) - Reference architectures for deploying Coder in production on Kubernetes and other platforms.
+- [coder/box](https://github.com/coder/box) - NixOS appliance that provisions a single-node Coder server and k3s cluster on a physical machine for self-contained demos and workshops.
 - [Update Coder Template](https://github.com/marketplace/actions/update-coder-template) - A GitHub Action to automate Coder template changes.
 - [Provision Coder with Lima](https://github.com/coder/coder/tree/main/examples/lima) - Linux virtual machines, typically on macOS, for running containerd.
 
 ## Tutorials and Blog Posts
 
+- [Kubernetes namespaces as dev environments](https://coder.com/blog/kubernetes-namespaces-as-dev-environments) - Tutorial for building a template that provisions a namespace, tooling pod, persistent home volume, and scoped ServiceAccount per developer.
+- [Four Reference Architectures for CDEs: Kubernetes vs. VMs](https://coder.com/blog/four-reference-architectures-for-cdes-kubernetes-vs-vms) - Trade-offs and reference patterns for running workspaces on Kubernetes versus virtual machines.
+- [Coder's Well-Architected Framework](https://coder.com/blog/coder-well-architected-framework) - Reliability, security, and cost best practices for a Coder deployment, from provisioners to RBAC and workspace bin-packing.
+- [Enterprise security and governance for software development environments](https://coder.com/blog/enterprise-security-and-governance-for-software-development-environments) - Guide to securing cloud development environments on Kubernetes, covering the PVC model, secrets, and Vault integration.
+- [Deploying AI Agents at Scale Without Sacrificing Control & Governance](https://coder.com/blog/deploying-ai-agents-at-scale-without-sacrificing-control-and-governance) - How to roll out autonomous coding agents with guardrails and governance in place.
 - [The Benefits of Remote Ephemeral Workspaces](https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53) - Palantir on running ephemeral, remote development environments at scale.
 - [Laptop development is dead: why remote development is the future](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13) - Argument for moving developer environments off laptops.
 
