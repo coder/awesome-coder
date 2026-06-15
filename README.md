@@ -49,16 +49,15 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 
 Start with the [Coder Registry](https://registry.coder.com/templates) for official and community templates. The repositories below are maintained elsewhere in the community:
 
-- [8Bitz0/coder-rust-template](https://gitlab.com/8Bitz0/coder-rust-template) - Coder templates with various Linux distros for out-of-the-box Rust development.
 - [bpmct/coder-templates/proxmox-vm](https://github.com/bpmct/coder-templates/tree/main/proxmox-vm) - Develop in a Proxmox VM.
 - [bpmct/coder-templates/shared-mac](https://github.com/bpmct/coder-templates/tree/main/shared-mac) - Connect a pre-provisioned Mac device and provision system users as workspaces.
 - [denbeigh2000/coder-templates](https://github.com/denbeigh2000/coder-templates) - Manage NixOS development workspaces on EC2, including spot and Graviton variants.
 - [m.lan/coder-templates](https://gitlab.com/m.lan/coder-templates) - Kubernetes template with Docker in Docker (DinD).
-- [matifali/coder-templates](https://github.com/matifali/coder-templates) - Deep learning with Jupyter Notebook/Lab and MATLAB in the browser.
+- [matifali/coder-templates](https://github.com/matifali/coder-templates) - Docker-based deep learning templates (PyTorch/TensorFlow with Jupyter, plus an NVIDIA GPU variant) and MATLAB in the browser.
 - [ntimo/coder-hetzner-cloud-template](https://github.com/ntimo/coder-hetzner-cloud-template) - Set up a Hetzner Cloud instance as a dev environment, with or without VS Code.
-- [sharkymark/v2-templates](https://github.com/sharkymark/v2-templates) - A large collection of templates.
+- [sharkymark/v2-templates](https://github.com/sharkymark/v2-templates) - A large collection of Coder Terraform templates and tips.
 - [sulo1337/coder-kubevirt-template](https://github.com/sulo1337/coder-kubevirt-template) - KubeVirt-based development environment that provisions KVM virtual machines as Coder workspaces on top of a Kubernetes cluster.
-- [uwu/basic-env](https://github.com/uwu/basic-env) - Docker-based Node.js development environment with code-server, NoVNC, and dotfiles support out of the box.
+- [uwu/basic-env](https://github.com/uwu/basic-env) - Docker-based dev environment with VS Code, an XFCE + noVNC desktop, dotfiles, and preinstalled language runtimes (Dart, Java, JavaScript/Node).
 
 ## Modules
 
@@ -96,6 +95,7 @@ Start with the [Coder Registry](https://registry.coder.com/modules) for reusable
 - [Coder's Well-Architected Framework](https://coder.com/blog/coder-well-architected-framework) - Reliability, security, and cost best practices for a Coder deployment, from provisioners to RBAC and workspace bin-packing.
 - [Enterprise security and governance for software development environments](https://coder.com/blog/enterprise-security-and-governance-for-software-development-environments) - Guide to securing cloud development environments on Kubernetes, covering the PVC model, secrets, and Vault integration.
 - [Deploying AI Agents at Scale Without Sacrificing Control & Governance](https://coder.com/blog/deploying-ai-agents-at-scale-without-sacrificing-control-and-governance) - How to roll out autonomous coding agents with guardrails and governance in place.
+- [Giving OpenClaw a Secure Workspace Using the Rabbit R1](https://coder.com/blog/giving-openclaw-a-secure-workspace-using-the-rabbit-r1) - Building an OpenClaw skill that lets the Rabbit R1's voice agent spin up isolated, governed Coder Tasks and Workspaces instead of granting it broad access to the host.
 - [The Benefits of Remote Ephemeral Workspaces](https://blog.palantir.com/the-benefits-of-remote-ephemeral-workspaces-1a1251ed6e53) - Palantir on running ephemeral, remote development environments at scale.
 - [Laptop development is dead: why remote development is the future](https://medium.com/@elliotgraebert/laptop-development-is-dead-why-remote-development-is-the-future-f92ce103fd13) - Argument for moving developer environments off laptops.
 
