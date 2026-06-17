@@ -39,7 +39,6 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [coder/code-server](https://github.com/coder/code-server) - Run VS Code in a browser tab. The default web IDE for many Coder workspaces.
 - [coder/envbuilder](https://github.com/coder/envbuilder) - Build workspaces from a Dockerfile or devcontainer.json on Docker, Kubernetes, and OpenShift.
 - [coder/envbox](https://github.com/coder/envbox) - Container image for running system-level software like Docker and systemd inside Kubernetes workspaces.
-- [coder/preview](https://github.com/coder/preview) - Template preview engine used by the Registry and template authors.
 
 ## AI Coding Agents
 
