@@ -45,7 +45,6 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 
 - [AI Coder documentation](https://coder.com/docs/ai-coder) - Official documentation for running AI coding agents inside Coder workspaces.
 - [Coder Agents](https://coder.com/docs/ai-coder/agents) - Coder's built-in chat interface and API for delegating development work to coding agents. It selects a template, provisions a workspace, and runs the agent loop inside your Coder control plane.
-- [Tasks](https://coder.com/docs/ai-coder/tasks) - Run AI agent loops in the Coder control plane against your workspaces.
 
 ## Templates
 
