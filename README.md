@@ -38,7 +38,8 @@ Your [contributions](CONTRIBUTING.md) are welcome!
 - [coder/registry](https://github.com/coder/registry) - Source for the templates and modules published to registry.coder.com.
 - [coder/code-server](https://github.com/coder/code-server) - Run VS Code in a browser tab. The default web IDE for many Coder workspaces.
 - [coder/envbuilder](https://github.com/coder/envbuilder) - Build workspaces from a Dockerfile or devcontainer.json on Docker, Kubernetes, and OpenShift.
-- [coder/envbox](https://github.com/coder/envbox) - Container image for running system-level software like Docker and systemd inside Kubernetes workspaces.
+- [coder/mux](https://github.com/coder/mux) - Desktop and browser app for running multiple AI coding agents side-by-side on local or remote compute, with isolated workspaces and a multi-model loop.
+- [coder/boo](https://github.com/coder/boo) - GNU screen-style terminal multiplexer built on libghostty, with `send`, `peek`, and `wait` primitives for driving interactive programs from scripts and AI agents.
 
 ## AI Coding Agents
 
@@ -69,16 +70,20 @@ Start with the [Coder Registry](https://registry.coder.com/modules) for modules 
 
 ## IDE Integrations
 
-- [Workspace access](https://coder.com/docs/user-guides/workspace-access) - Connect to Coder workspaces from VS Code, JetBrains, Cursor, code-server, and the CLI.
-- [coder/vscode-coder](https://github.com/coder/vscode-coder) - VS Code extension to open any Coder workspace with a single click.
-- [coder/jetbrains-coder](https://github.com/coder/jetbrains-coder) - JetBrains Gateway plugin for Coder.
+- [Workspace access](https://coder.com/docs/user-guides/workspace-access) - Connect to Coder workspaces from VS Code, JetBrains, Cursor, Zed, code-server, and the CLI.
+- [coder/vscode-coder](https://github.com/coder/vscode-coder) - VS Code extension to open any Coder workspace with a single click. Also works in VS Code forks like Cursor, Windsurf, and Kiro.
 - [coder/coder-jetbrains-toolbox](https://github.com/coder/coder-jetbrains-toolbox) - JetBrains Toolbox plugin for Coder.
+- [Cursor module](https://registry.coder.com/modules/coder/cursor) - One-click launch button for Cursor IDE, with optional MCP server configuration.
+- [Zed module](https://registry.coder.com/modules/coder/zed) - One-click launch button for Zed, with optional settings and MCP context server configuration.
+- [Windsurf module](https://registry.coder.com/modules/coder/windsurf) - One-click launch button for the Windsurf Editor, with optional MCP server configuration.
+- [Kiro module](https://registry.coder.com/modules/coder/kiro) - One-click launch button for Kiro, AWS's AI-powered IDE, with optional MCP server configuration.
 - [Running a private VS Code Extension Marketplace](https://coder.com/blog/running-a-private-vs-code-extension-marketplace) - Host an internal extension marketplace for code-server and VS Code workspaces.
 
 ## Coder Desktop
 
 - [coder/coder-desktop-macos](https://github.com/coder/coder-desktop-macos) - Native macOS Coder Desktop client.
 - [coder/coder-desktop-windows](https://github.com/coder/coder-desktop-windows) - Native Windows Coder Desktop client.
+- [coder/coder-desktop-linux](https://github.com/coder/coder-desktop-linux) - Coder Desktop for Linux, including the Avalonia tray app and VPN service integration.
 
 ## Automation
 

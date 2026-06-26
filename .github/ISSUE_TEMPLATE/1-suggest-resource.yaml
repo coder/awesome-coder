@@ -34,12 +34,12 @@ body:
       options:
         - Official Resources
         - Platform and Tools
-        - IDE Integrations
-        - Coder Desktop
         - AI Coding Agents
         - Templates
         - Modules
         - Terraform Providers
+        - IDE Integrations
+        - Coder Desktop
         - Automation
         - Tutorials and Blog Posts
         - Talks and Videos
