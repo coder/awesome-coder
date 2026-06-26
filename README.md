@@ -103,6 +103,10 @@ Start with the [Coder Registry](https://registry.coder.com/modules) for modules 
 - [Introduction to Coder Workspaces](https://www.youtube.com/watch?v=KNnNREoizOM) - Overview of Coder workspaces and how they fit into a developer workflow.
 - [Building the IDE Golden Path](https://www.youtube.com/watch?v=F6D-cXl_xUA) - Ben Potter on building a consistent IDE experience across teams with Coder.
 - [Your Next Workstation Is In The Cloud](https://www.youtube.com/watch?v=C4fQvIHCVzw&t=748s) - Ketan Gangatirkar on moving developer workstations to the cloud with Coder.
+- [Accelerate cloud native development with Coder](https://www.youtube.com/watch?v=0vK10Z7LF6A) - Tim Quinlan at PlatformCon 2024 on shifting developer runtimes left without building a platform from scratch.
+- [Optimising developer workflows: the future of Cloud Development Environments](https://www.youtube.com/watch?v=SR0q-ZPeSm4) - Eric Paulsen, Field CTO at Coder, on running development environments as policy-driven infrastructure.
+- [How Skydio scaled AI coding agents to a million-line monorepo](https://www.youtube.com/watch?v=aT0YUV5TavM) - Elliot Graebert (Skydio) and Ben Potter (Coder) on rolling out agentic development at production scale.
+- [10 governance controls that actually stop AI agents from going rogue](https://www.youtube.com/watch?v=12azuSjtTqs) - Rob Whiteley, Coder CEO, with a HumanX 2026 lightning talk on practical guardrails for autonomous coding agents.
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
