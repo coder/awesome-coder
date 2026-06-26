@@ -33,10 +33,15 @@ body:
       label: "Suggested section"
       options:
         - Official Resources
-        - Tutorials and Blog Posts
-        - IDEs
-        - Automation
+        - Platform and Tools
+        - AI Coding Agents
         - Templates
+        - Modules
+        - Terraform Providers
+        - IDE Integrations
+        - Coder Desktop
+        - Automation
+        - Tutorials and Blog Posts
         - Talks and Videos
         - Other (explain below)
     validations:
