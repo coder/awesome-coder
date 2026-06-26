@@ -1,6 +1,11 @@
 # Awesome Coder [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://coder.com"><img src="https://github.com/coder/presskit/blob/7b1ae316de8b78cbdd8ef6b6352ef9f32be51504/logos/coder_logo_white_square.png?raw=true" alt="Coder logo" align="right" width="100"></a>
+<a href="https://coder.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/coder-mark-white.svg">
+    <img src="./assets/coder-mark-black.svg" alt="Coder logo" align="right" width="120">
+  </picture>
+</a>
 
 > A curated list of resources for [Coder](https://coder.com), the self-hosted platform for cloud development environments and AI coding agents.
 
