@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "awesome-lint": "^2.3.0",
-    "prettier": "^3.7.4"
+    "prettier": "^3.9.4"
   }
 }
